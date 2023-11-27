@@ -70,18 +70,57 @@ a{
 .maincontent{
     width: 70%;
     padding: 40px;
-  
     /* border: 1px solid black; */
     box-shadow: 0px 0px 30px black;
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 40px;
     background: #abbaab;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+
+.box1{
+
+    border: 2px solid black;
+    height: 30rem;
+}
+
+.box2{
+
+    border: 2px solid black;
+    height: 5rem;
+}
+
+.box3{
+
+    border: 2px solid black;
+    height: 30rem;
+}
+
+.textbox1{
+
+    border: 2px solid black;
+    height: 25rem;
+    width: 60%;
+    margin-left: 36.3%;
+    margin-top: 3.5%;
+
+}
+
+.textbox2{
+
+    border: 2px solid black;
+    width: 80%;
+    height: 80%;
+    margin:auto;
+    margin-top: 4.5%;
+}
+
+
 .items{
     display: flex;
     /* border: 1px solid black; */
