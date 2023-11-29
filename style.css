@@ -51,6 +51,140 @@ a{
     gap: 20px;
 
 }
+
+.maincontent{
+    width: 70%;
+    padding: 40px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 30px black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* background: #abbaab;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  Chrome 10-25, Safari 5.1-6 */ 
+    /* background: linear-gradient(to right, #ffffff, #abbaab); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /* background: #FFA17F;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #00223E, #FFA17F); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient( 49deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+
+}
+
+
+.mainimg{
+    height: 50rem;
+    border-radius: 10px;
+    border: 8px color(rgba(67, 16, 16, 0.651));
+    border-style: groove;
+    position: absolute;
+    width: 66%;
+}
+.mainimg1{
+    height: 30rem;
+    border-radius: 10px;
+    border: 8px color(rgba(67, 16, 16, 0.651));
+    border-style: groove;
+    position: absolute;
+    width: 100%;
+}
+.box1{
+    position: relative;
+    height: 50rem;
+}
+
+.box2{
+
+    /* border: 2px solid black; */
+    height: 8rem;
+   
+    
+}
+
+.box3{
+
+    /* border: 2px solid black; */
+    height: 30rem;
+    width: 100%;
+    
+    position: relative;
+}
+
+.textbox1{
+
+    background: transparent;
+    /* backdrop-filter: blur(10px); */
+    border-radius: 8px;
+    /* border: 1px solid grey; */
+    height: 40rem;
+    width: 50%;
+    margin-left: 46.5%;
+    margin-top: 3.5%;
+    position: absolute;
+    text-align: center;
+    
+    
+
+}
+.textbox1:hover
+{
+    backdrop-filter: blur(5px); 
+    /* border: 1px solid grey;  */
+    transition-duration: 1S;
+    transform: scale(1.1);
+}
+
+.textbox2{
+
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    margin-top: 18%;
+    position: absolute;
+    text-align: center;
+        
+
+    
+}
+.textbox2:hover{
+    
+    backdrop-filter: blur(2px); 
+    /* border: 1px solid grey;  */
+    transition-duration: 1S;
+    transform: scale(1.2);
+
+}
+.textbox1 h2{
+    color: azure;
+}
+
+
+.textbox2 h2{
+
+    /* font-size: 1.2rem; */
+    color: white
+}
+
+.heading{
+
+    font-size:2.8rem;
+    padding: 80px;
+
+}
+.sub-head{
+
+    font-size:2rem;
+    padding: 50px;
+
+}
+.head1{
+
+    font-size:3rem;
+    padding: 20px;
+}
+
 .footer{
 
     /* background-color: #3EECAC; */
@@ -67,96 +201,30 @@ a{
     color: azure;
 
 }
-.maincontent{
-    width: 70%;
-    padding: 40px;
-    /* border: 1px solid black; */
-    box-shadow: 0px 0px 30px black;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    /* background: #abbaab;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  Chrome 10-25, Safari 5.1-6 */ 
-    /* background: linear-gradient(to right, #ffffff, #abbaab); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background: #FFA17F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
+         
+.brand {
+    background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB  51%, #1F1C2C  100%);
+    /* margin: 10px; */
+    padding: 24px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+    font-size: 4.18rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-stretch: condensed;
+  }
 
-}
-
-
-.box1{
-
-    border: 2px solid black;
-    height: 30rem;
-}
-
-.box2{
-
-    border: 2px solid black;
-    height: 5rem;
-}
-
-.box3{
-
-    border: 2px solid black;
-    height: 30rem;
-}
-
-.textbox1{
-
-    border: 2px solid black;
-    height: 25rem;
-    width: 60%;
-    margin-left: 36.3%;
-    margin-top: 3.5%;
-
-}
-
-.textbox2{
-
-    border: 2px solid black;
-    width: 80%;
-    height: 80%;
-    margin:auto;
-    margin-top: 4.5%;
-}
-
-
-.items{
-    display: flex;
-    /* border: 1px solid black; */
-    justify-content: space-around;
-    align-items: center;
-
-}
-.rightbox img{
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
-}
-.leftbox{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-left: 30px;
-}
-.leftbox h2{
-    font-size: 3rem;
-
-}
-.ingredients h2 {
-    font-size: 2rem;
-}
-.recipe h2 {
-    font-size: 2rem;
-}
-.ingbox{
-    font-size: 1.3rem;
-
-}
-.recipebox{
-    font-size: 1.1rem;
-}
+  .brand:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
