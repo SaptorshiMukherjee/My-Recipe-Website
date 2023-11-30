@@ -99,7 +99,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-right: 100px;
+    margin-right: 100%;
     /* padding-left: 30px; */
 }
 .leftbox h2{
